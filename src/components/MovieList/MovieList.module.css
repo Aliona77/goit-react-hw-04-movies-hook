@@ -1,0 +1,77 @@
+.list {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+  grid-template-columns: repeat(4, 300px);
+}
+.card {
+  display: block;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 8px;
+  outline: none;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.03);
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.buttonBack {
+  width: 120px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.buttonBack:hover,
+.buttonBack:focus {
+  box-shadow: 0 0 20px rgba(177, 168, 168, 0.25);
+}
+.text {
+  line-height: 1.172;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navLink {
+  line-height: 1.172;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.titleInfo {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

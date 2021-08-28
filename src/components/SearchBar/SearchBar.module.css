@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  background-image: url("https://image.flaticon.com/icons/svg/149/149852.svg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  margin-right: 2px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid black;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px rgba(177, 168, 168, 0.25);
+}
+
+.input {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100%;
+  font: inherit;
+  font-size: 20px;
+  outline: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 42px;
+  border: 2px solid rgb(24, 15, 15);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
+}
+
+.input:placeholder {
+  font: inherit;
+  font-size: 18px;
+}
+
+.input:hover {
+  box-shadow: 0 0 20px rgba(177, 168, 168, 0.25);
+}
